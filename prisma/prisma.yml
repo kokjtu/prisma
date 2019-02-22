@@ -1,0 +1,2 @@
+endpoint: http://localhost:4466/cuong/test
+datamodel: datamodel.graphql

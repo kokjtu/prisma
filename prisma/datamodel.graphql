@@ -1,0 +1,18 @@
+type User {
+  id: ID! @unique
+  name: String!
+  books: [Book!]!
+}
+
+type Book {
+  id: ID! @unique
+  name: String!
+  author: User!
+}
+
+type Comment {
+  id: ID! @unique
+  content: String!
+  book: Book!
+  user: User!
+}
